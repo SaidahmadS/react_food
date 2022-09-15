@@ -1,0 +1,49 @@
+.mainsort-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 195px;
+  height: 226px;
+  padding: 24px;
+  box-sizing: border-box;
+  background: #1F1D2B;
+  border-radius: 16px;
+  margin: 50px 20px 10px 20px;
+  cursor: pointer;
+}
+.mainsort-item img {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+  top: -35px;
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+}
+.mainsort-item h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+  margin-top: 90px;
+  text-align: center;
+}
+.mainsort-item span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  margin-bottom: 4px;
+  color: #fff;
+}
+.mainsort-item p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ABBBC2;
+}/*# sourceMappingURL=MainSortItem.css.map */

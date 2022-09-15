@@ -1,0 +1,74 @@
+.order-most {
+  background-color: #1F1D2B;
+  margin-top: 24px;
+  border-radius: 8px;
+  padding: 24px;
+  box-sizing: border-box;
+}
+.order-most .most-order {
+  border-bottom: 1px solid #393C49;
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.order-most .most-order h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.order-most .most-order select {
+  background: #1F1D2B;
+  border: 1px solid #393C49;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  padding: 14px;
+  outline: none;
+}
+.order-most .rounding {
+  display: flex;
+  align-items: center;
+}
+.order-most .rounding img {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+.order-most .rounding .customers .span {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.order-most .rounding .customers .span span {
+  width: 20px;
+  height: 20px;
+  background: #FF7CA3;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 12px;
+}
+.order-most .rounding .customers .span .title h4 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+.order-most .rounding .customers .span .title p {
+  font-size: 12px;
+  line-height: 140%;
+  color: #ABBBC2;
+}
+.order-most .rounding .customers .span .span2 {
+  background-color: #FFB572;
+}
+.order-most .rounding .customers .span .span3 {
+  background-color: #65B0F6;
+}/*# sourceMappingURL=OrderMost.css.map */

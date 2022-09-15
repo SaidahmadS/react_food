@@ -1,0 +1,25 @@
+.dashboard .title {
+  border-bottom: 1px solid #393C49;
+}
+.dashboard .title h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+.dashboard .title p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ABBBC2;
+  padding-bottom: 24px;
+}
+.dashboard .total-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+}/*# sourceMappingURL=Dashboard.css.map */

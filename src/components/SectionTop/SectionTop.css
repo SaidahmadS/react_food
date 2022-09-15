@@ -1,0 +1,56 @@
+.section-top {
+  border-bottom: 1px solid #393C49;
+}
+.section-top h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+.section-top .links {
+  margin-bottom: 24px;
+}
+.section-top .links .link {
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #393C49;
+  margin-right: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+.section-top .links .link h4 {
+  padding: 7px 12px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+  display: inline-block;
+  color: #EA7C69;
+}
+.section-top .links .link:hover {
+  background: #EA7C69;
+}
+.section-top .links .link:hover h4 {
+  color: white;
+}
+.section-top .titles {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+.section-top .titles h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.section-top .titles .titles-right {
+  display: flex;
+}
+.section-top .titles .titles-right h3:last-child {
+  margin-left: 40px;
+}/*# sourceMappingURL=SectionTop.css.map */

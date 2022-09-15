@@ -1,0 +1,40 @@
+.order-list {
+  padding: 10px 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.order-list img {
+  margin-right: 16px;
+  width: 32px;
+  height: 32px;
+}
+.order-list p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #E0E6E9;
+  display: block;
+}
+.order-list .name {
+  margin-right: 67px;
+}
+.order-list .text {
+  width: 137px;
+  margin-right: 34px;
+}
+.order-list .price {
+  margin-right: 120px;
+}
+.order-list .content {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #50D1AA;
+  padding: 4px 12px;
+  background: rgba(107, 226, 190, 0.24);
+  border-radius: 30px;
+  max-width: 90px;
+}/*# sourceMappingURL=OrderList.css.map */

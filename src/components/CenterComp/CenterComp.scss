@@ -1,0 +1,116 @@
+.center-comp {
+  margin-top: 24px;
+
+  .added {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    .added-left {
+      width: 80%;
+      height: 105px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      &__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .img-title {
+          display: flex;
+          align-items: center;
+
+          .img {
+            margin-right: 8px;
+            img {
+              border-radius: 50%;
+              width: 40px;
+              height: 40px;
+              
+            }
+          }
+
+          .food-info {
+            font-style: normal;
+            font-weight: 500;
+            h4 {
+              font-size: 14px;
+              line-height: 130%;
+              color: #FFFFFF;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              width: 140px;
+            }
+            span {
+              font-size: 12px;
+              line-height: 140%;
+              color: #ABBBC2;
+            }
+          }
+        }
+        .count {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 48px;
+          height: 48px;
+          background: #2D303E;
+          border: 1px solid #393C49;
+          box-sizing: border-box;
+          border-radius: 8px;
+          text-align: center;
+          color: #FFFFFF;
+        }
+      }
+      &__bottom {
+        input {
+          width: 100%;
+          outline: none;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 140%;
+          color: #E0E6E9; 
+          background: #2D303E;
+          border: 1px solid #393C49;
+          box-sizing: border-box;
+          border-radius: 8px;
+          display: block;
+          padding: 14px;
+
+          ::placeholder {
+            color: #889898;
+          }
+        }
+      }
+    }
+    .added-right {  
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100px;
+      text-align: center;
+
+      h3 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+        margin-top: 5px;
+        width: 100%;
+        display: block;
+      }
+      .icon {
+        margin-left: 16px;
+        width: 48px;
+        height: 48px;
+        cursor: pointer;
+      }
+    }
+  }
+}

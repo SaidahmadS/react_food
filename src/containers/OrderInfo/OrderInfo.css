@@ -1,0 +1,85 @@
+.order-info {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #1F1D2B;
+  height: 58%;
+  border-radius: 8px;
+  font-family: Barlow;
+  padding: 24px;
+}
+.order-info .most-order {
+  border-bottom: 1px solid #393C49;
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.order-info .most-order h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.order-info .most-order select {
+  background: #1F1D2B;
+  border: 1px solid #393C49;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  padding: 14px;
+  outline: none;
+}
+.order-info .foods .food {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.order-info .foods .food img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.order-info .foods .food .food-title h4 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #E0E6E9;
+}
+.order-info .foods .food .food-title span {
+  font-size: 12px;
+  line-height: 140%;
+  color: #ABBBC2;
+}
+.order-info .foods .button {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #EA7C69;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+}
+.order-info .foods .button button {
+  width: 100%;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #EA7C69;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 100%;
+  border-radius: 6px;
+}
+.order-info .foods .button button:active {
+  background-color: #EA7C69;
+  color: white;
+}/*# sourceMappingURL=OrderInfo.css.map */

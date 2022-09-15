@@ -1,0 +1,66 @@
+.order-filter {
+  background: #1F1D2B;
+  border-radius: 8px;
+  margin-top: 24px;
+}
+.order-filter .filter-info {
+  border-bottom: 1px solid #393C49;
+  padding: 33px 24px 16px 24px;
+  box-sizing: border-box;
+}
+.order-filter .filter-info .info-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.order-filter .filter-info .info-top h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.order-filter .filter-info .info-top .filtered {
+  display: flex;
+  align-items: center;
+  padding: 13px;
+  box-sizing: border-box;
+  border: 1px solid #393C49;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.order-filter .filter-info .info-top .filtered p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #FFFFFF;
+  margin-left: 12px;
+}
+.order-filter .filter-info .info-bottom {
+  display: flex;
+  align-items: center;
+}
+.order-filter .filter-info .info-bottom h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.order-filter .filter-info .info-bottom .customer {
+  margin-right: 128px;
+}
+.order-filter .filter-info .info-bottom .menu {
+  margin-right: 136px;
+}
+.order-filter .filter-info .info-bottom .total-payment {
+  margin-right: 61px;
+}
+.order-filter .ordered {
+  padding: 16px 24px 0 24px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  height: 330px;
+}/*# sourceMappingURL=OrderFilter.css.map */

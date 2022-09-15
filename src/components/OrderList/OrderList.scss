@@ -1,0 +1,42 @@
+.order-list {
+  padding: 10px 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-right: 16px;
+    width: 32px;
+    height: 32px;
+  }
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #E0E6E9;    
+    display: block;
+  }
+  .name {
+    margin-right: 67px;
+  }
+  .text {
+    width: 137px;
+    margin-right: 34px;
+  }
+  .price {
+    margin-right: 120px;
+  }
+
+  .content {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #50D1AA;
+    padding: 4px 12px;
+    background: rgba(107, 226, 190, 0.24);
+    border-radius: 30px;
+    max-width: 90px;
+  }
+}

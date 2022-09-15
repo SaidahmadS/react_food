@@ -1,0 +1,8 @@
+.order-page {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px;
+}
+.order-page .most-order-info {
+  width: 33%;
+}/*# sourceMappingURL=OrderPage.css.map */

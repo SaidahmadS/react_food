@@ -1,0 +1,197 @@
+.paymentModal {
+  width: 115%;
+  position: absolute;
+  top: -24px;
+  right: -24px;
+  background-color: #1F1D2B;
+  border-radius: 16px 0 0 16px;
+  z-index: 4;
+  padding: 33px;
+  box-sizing: border-box;
+  text-align: start;
+  font-family: "Barlow", "sans-serif";
+}
+.paymentModal .paymentTitle h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  color: #FFFFFF;
+}
+.paymentModal .paymentTitle p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ABBBC2;
+}
+.paymentModal .line {
+  border: 1px solid #393C49;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+.paymentModal .paymentForm h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.paymentModal .paymentForm .cards {
+  display: flex;
+  margin-bottom: 16px;
+}
+.paymentModal .paymentForm .cards .card {
+  background: #252836;
+  border: 1px solid #ABBBC2;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-right: 10px;
+  width: 100px;
+  height: 64px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.5;
+}
+.paymentModal .paymentForm .cards .card p {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: white;
+}
+.paymentModal .paymentForm .cards .card svg {
+  fill: white;
+}
+.paymentModal .paymentForm .cards .card:active {
+  opacity: 1;
+}
+.paymentModal .paymentForm form {
+  margin-bottom: 16px;
+}
+.paymentModal .paymentForm form label {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+.paymentModal .paymentForm form input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 14px;
+  margin-bottom: 16px;
+  width: 100%;
+  outline: none;
+  background: #2D303E;
+  border: 1px solid #393C49;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: white;
+}
+.paymentModal .paymentForm form input ::-moz-placeholder {
+  color: #E0E6E9;
+}
+.paymentModal .paymentForm form input :-ms-input-placeholder {
+  color: #E0E6E9;
+}
+.paymentModal .paymentForm form input ::placeholder {
+  color: #E0E6E9;
+}
+.paymentModal .paymentForm form .pasDate {
+  display: flex;
+}
+.paymentModal .paymentForm form .pasDate .date {
+  padding-right: 10px;
+}
+.paymentModal .paymentSend .inputSelect {
+  display: flex;
+  margin-bottom: 12px;
+}
+.paymentModal .paymentSend .inputSelect label {
+  margin-bottom: 8px;
+  display: inline-block;
+}
+.paymentModal .paymentSend .inputSelect select {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px;
+  width: 178px;
+  height: 48px;
+  background: #1F1D2B;
+  border: 1px solid #393C49;
+  box-sizing: border-box;
+  border-radius: 8px;
+  outline: none;
+  margin-right: 10px;
+  color: #E0E6E9;
+}
+.paymentModal .paymentSend .inputSelect input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 14px;
+  margin-bottom: 16px;
+  width: 100%;
+  outline: none;
+  background: #2D303E;
+  border: 1px solid #393C49;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: white;
+}
+.paymentModal .paymentSend .inputSelect input ::-moz-placeholder {
+  color: #E0E6E9;
+}
+.paymentModal .paymentSend .inputSelect input :-ms-input-placeholder {
+  color: #E0E6E9;
+}
+.paymentModal .paymentSend .inputSelect input ::placeholder {
+  color: #E0E6E9;
+}
+.paymentModal .paymentSend .buttons {
+  display: flex;
+}
+.paymentModal .paymentSend .buttons button {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #FAFAFA;
+  background: #EA7C69;
+  box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.3);
+  border-radius: 8px;
+  display: inline-block;
+  width: 100%;
+  padding: 14px;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+.paymentModal .paymentSend .buttons .button {
+  color: #EA7C69;
+  background-color: transparent;
+  border: 1px solid #EA7C69;
+  margin-right: 8px;
+}/*# sourceMappingURL=payment.module.css.map */

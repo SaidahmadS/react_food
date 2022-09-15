@@ -1,0 +1,33 @@
+.link {
+    display: flex;
+    padding: 24px;
+    text-decoration: none;
+
+    .title {
+        margin-left: 10px;
+        h4 {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 130%;
+            color: #FFFFFF;
+        }
+        p {
+            font-size: 12px;
+            line-height: 140%;
+            color: #ABBBC2;
+        }
+    }
+    svg {
+        fill: #ABBBC2;
+    }
+}
+
+.active {
+    background: rgba(234, 124, 105, 0.26);
+    h4 {
+        color: #EA7C69;
+    }
+    svg {
+        fill: #EA7C69;
+    }
+}

@@ -1,0 +1,17 @@
+.home-page {
+  width: 100%;
+  display: flex;
+   
+  .home-center {
+    width: 65%;
+    padding: 24px;
+    box-sizing: border-box;
+  }
+
+  .home-right {
+    width: 35%;
+    background: #1F1D2B;
+    padding: 24px;
+    box-sizing: border-box;
+  }
+}

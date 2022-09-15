@@ -1,0 +1,16 @@
+.settings {
+    padding: 24px;
+    h1 {
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 140%;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+    }
+    .settings-page {
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,40 @@
+.total {
+  background: #1F1D2B;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  box-sizing: border-box;
+   
+  .total-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    img {
+      margin-right: 12px;
+
+    }
+    span {
+      margin-right: 6px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 140%;
+      color: #50D1AA;
+    }
+  }
+  h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+  }
+  p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #ABBBC2;
+  }
+}
